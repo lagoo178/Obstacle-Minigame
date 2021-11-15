@@ -310,6 +310,7 @@ GameObject:
   - component: {fileID: 1080375631}
   - component: {fileID: 1080375630}
   - component: {fileID: 1080375629}
+  - component: {fileID: 1080375633}
   m_Layer: 0
   m_Name: Viktor
   m_TagString: Untagged
@@ -387,12 +388,24 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1080375628}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.181778, y: -1.6, z: 0.5945401}
+  m_LocalPosition: {x: 0, y: -0.28, z: -0.11}
   m_LocalScale: {x: 1, y: 0.58804, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1080375633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080375628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29c00beb4934e55449cf5439cd81d048, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2093669397
 GameObject:
   m_ObjectHideFlags: 0
@@ -483,7 +496,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2093669397}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.9, z: 0}
+  m_LocalPosition: {x: 0, y: -0.58, z: 0}
   m_LocalScale: {x: 1.8933, y: 1.8933, z: 1.8933}
   m_Children: []
   m_Father: {fileID: 0}
